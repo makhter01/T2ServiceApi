@@ -1,4 +1,4 @@
-# Team 2 - Service Api [![Build Status](https://travis-ci.org/mhasan90/Team2ServiceApi.svg?branch=master)](https://travis-ci.org/mhasan90/Team2ServiceApi)
+# Service API [![Build Status](https://travis-ci.org/mhasan90/T2ServiceApi.svg?branch=master)](https://travis-ci.org/mhasan90/T2ServiceApi)
 ## Technical Requirements
 
 - Must have:
