@@ -19,7 +19,7 @@ public class ConnectDB {
             System.out.println(e.getStackTrace());
         }
         MongoClientURI uri = new MongoClientURI(
-                "mongodb://testAdmin:abc123!@cluster0-shard-00-00-esgno.mongodb.net:27017,cluster0-shard-00-01-esgno.mongodb.net:27017,cluster0-shard-00-02-esgno.mongodb.net:27017/test?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin");
+                "mongodb://testuser:Automation2@cluster0-shard-00-00-h9hvs.mongodb.net:27017,cluster0-shard-00-01-h9hvs.mongodb.net:27017,cluster0-shard-00-02-h9hvs.mongodb.net:27017/test?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin");
 
         MongoClient mongoClient = new MongoClient(uri);
         return mongoClient;
